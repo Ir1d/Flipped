@@ -3,8 +3,13 @@
 	"displayName": "Flipped",
 	"description": "A Next Generation Tool for Competitive Programming",
 	"version": "0.0.1",
+	"publisher": "Ir1d",
 	"engines": {
 		"vscode": "^1.38.0"
+	},
+	"repository": {
+	  "type": "git",
+	  "url": "git+https://github.com/Ir1d/Flipped.git"
 	},
 	"categories": [
 		"Other"
@@ -18,6 +23,12 @@
 			{
 				"command": "extension.helloWorld",
 				"title": "Hello World"
+			}
+		],
+		"snippets": [
+			{
+				"language": "cpp",
+				"path": "./snippets/cpp.json"
 			}
 		]
 	},
